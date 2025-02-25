@@ -1,0 +1,42 @@
+title-text: ""
+desktop-image: "background.jpg"
+desktop-image-scale-method: "padding"
+desktop-image-h-align: "center"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Sevastopol Interface Regular 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 7%+3
+  top = 86%-190
+  width = 31%
+  height = 160
+  item_height = 34
+  item_font = "Funnel Sans Regular 24"
+  item_color = "#ACA8A5"
+  item_padding = 0
+  icon_width = 24
+  item_icon_space = 24
+  icon_height = 0
+  selected_item_color = "#FFFFFF"
+  selected_item_font = "Funnel Sans Regular 24"
+  item_spacing = 8.5
+  #item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
++ label {
+  color = "#ACA8A5"
+  font = "Funnel Sans Regular 24"
+  left = 9%
+  top = 87%+2
+  width = 31%
+  align = "left"
+  id = "__timeout__"
+  text = "System starting in %d"
+}

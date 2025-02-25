@@ -1,0 +1,18 @@
+# Space Isolation
+A GRUB theme based on the main menu of the 2014 survival horror game Alien: Isolation™.
+
+![Preview](preview.jpg "Space Isolation GRUB2 Theme Preview")
+
+## Installation
+### Arch Linux
+1. Copy the theme directory to GRUB
+```zsh
+# cp -r <theme_directory> /boot/grub/themes
+```
+
+2. Change the default GRUB theme by editing `/etc/default/grub`. Find `GRUB_THEME=<path>` and change the path to `/boot/grub/themes/space-isolation/theme.txt`
+
+3. Update GRUB
+```zsh
+# grub-mkconfig -o /boot/grub/grub.cfg 
+```
