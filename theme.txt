@@ -26,7 +26,6 @@ terminal-border: "0"
   selected_item_color = "#FFFFFF"
   selected_item_font = "Funnel Sans Regular 24"
   item_spacing = 8.5
-  #item_pixmap_style = "item_*.png"
   selected_item_pixmap_style = "selected_item_*.png"
 }
 
@@ -37,6 +36,26 @@ terminal-border: "0"
   top = 87%+2
   width = 31%
   align = "left"
+  text = "Press C for console or E to edit"
+}
+
++ label {
+  color = "#ACA8A5"
+  font = "Funnel Sans Regular 24"
+  left = 85%
+  top = 87%+2
+  width = 31%
+  align = "left"
+  text = "Booting"
+}
+
++ label {
+  color = "#5AEB71"
+  font = "Teko Regular 36"
+  left = 85%+150
+  top = 87%-3
+  width = 31%
+  align = "left"
   id = "__timeout__"
-  text = "System starting in %d"
+  text = "%d"
 }
