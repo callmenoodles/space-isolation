@@ -12,38 +12,38 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + boot_menu {
-  left = 7%+3
-  top = 86%-190
-  width = 31%
-  height = 160
-  item_height = 34
-  item_font = "Funnel Sans Regular 24"
+  left = 7%+4
+  top = 86%-212
+  width = 800
+  height = 190
+  item_height = 37
+  item_font = "Funnel Sans Regular 29"
   item_color = "#ACA8A5"
   item_padding = 0
   icon_width = 24
-  item_icon_space = 24
+  item_icon_space = 26
   icon_height = 0
   selected_item_color = "#FFFFFF"
-  selected_item_font = "Funnel Sans Regular 24"
-  item_spacing = 8.5
+  selected_item_font = "Funnel Sans Regular 29"
+  item_spacing = 11
   selected_item_pixmap_style = "selected_item_*.png"
 }
 
 + label {
   color = "#ACA8A5"
-  font = "Funnel Sans Regular 24"
-  left = 9%
-  top = 87%+2
+  font = "Funnel Sans Regular 29"
+  left = 9%+3
+  top = 87%
   width = 31%
   align = "left"
-  text = "Press C for console or E to edit"
+  text = "Press C for Console or E to Edit"
 }
 
 + label {
   color = "#ACA8A5"
-  font = "Funnel Sans Regular 24"
-  left = 85%
-  top = 87%+2
+  font = "Funnel Sans Regular 28"
+  left = 85%+5
+  top = 87%+7
   width = 31%
   align = "left"
   text = "Booting"
@@ -51,9 +51,9 @@ terminal-border: "0"
 
 + label {
   color = "#5AEB71"
-  font = "Teko Regular 36"
-  left = 85%+150
-  top = 87%-3
+  font = "Teko Regular 40"
+  left = 85%+149
+  top = 87%+1
   width = 31%
   align = "left"
   id = "__timeout__"
