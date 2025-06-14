@@ -1,0 +1,61 @@
+title-text: ""
+desktop-image: "background.jpg"
+desktop-image-scale-method: "padding"
+desktop-image-h-align: "center"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Sevastopol Interface Regular 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 7%+3
+  top = 86%-161
+  width = 600
+  height = 143
+  item_height = 32
+  item_font = "Funnel Sans Regular 21"
+  item_color = "#ACA8A5"
+  item_padding = 0
+  icon_width = 19
+  item_icon_space = 18
+  icon_height = 0
+  selected_item_color = "#FFFFFF"
+  selected_item_font = "Funnel Sans Regular 21"
+  item_spacing = 4
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
++ label {
+  color = "#ACA8A5"
+  font = "Funnel Sans Regular 21"
+  left = 9%+3
+  top = 87%+1
+  width = 31%
+  align = "left"
+  text = "Select Game Mode"
+}
+
++ label {
+  color = "#ACA8A5"
+  font = "Funnel Sans Regular 22"
+  left = 85%+29
+  top = 87%+5
+  width = 31%
+  align = "left"
+  text = "Back"
+}
+
++ label {
+  color = "#5AEB71"
+  font = "Teko Regular 32"
+  left = 85%+112
+  top = 87%
+  width = 31%
+  align = "left"
+  id = "__timeout__"
+  text = "ESCAPE"
+}
