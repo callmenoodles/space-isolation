@@ -36,17 +36,17 @@ terminal-border: "0"
   top = 87%+1
   width = 31%
   align = "left"
-  text = "Select Game Mode"
+  text = "Press C for Console or E to Edit"
 }
 
 + label {
   color = "#ACA8A5"
   font = "Funnel Sans Regular 22"
-  left = 85%+29
+  left = 85%+1
   top = 87%+5
   width = 31%
   align = "left"
-  text = "Back"
+  text = "Booting"
 }
 
 + label {
@@ -57,5 +57,5 @@ terminal-border: "0"
   width = 31%
   align = "left"
   id = "__timeout__"
-  text = "ESCAPE"
+  text = "%d"
 }
