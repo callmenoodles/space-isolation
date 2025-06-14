@@ -18,3 +18,6 @@ A GRUB theme based on the main menu of the 2014 survival horror game Alien: Isol
     ```zsh
     # grub-mkconfig -o /boot/grub/grub.cfg 
     ```
+
+## Contribution
+Feel free to contribute to this project using [this contribution guide](CONTRIBUTING). Leave a review on [Pling](https://www.pling.com/p/2296342/).
