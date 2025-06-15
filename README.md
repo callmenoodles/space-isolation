@@ -20,4 +20,4 @@ A GRUB theme based on the main menu of the 2014 survival horror game Alien: Isol
     ```
 
 ## Contribution
-Feel free to contribute to this project using [this contribution guide](CONTRIBUTING). Leave a review on [Pling](https://www.pling.com/p/2296342/).
+Feel free to contribute to this project using [this contribution guide](CONTRIBUTING.md). Leave a review on [Pling](https://www.pling.com/p/2296342/).
