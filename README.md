@@ -4,7 +4,7 @@ A GRUB theme based on the main menu of the 2014 survival horror game Alien: Isol
 ![Preview](preview.jpg "Space Isolation GRUB2 Theme Preview")
 
 ## Installation
-> [!WARNING]
+> [!IMPORTANT]
 > This theme is a WIP **only supporting 2560x1440 and 1920x1080** resolutions. It will not look optimal on different resolutions. Feel free to add support for your resolutions using [this contribution guide](CONTRIBUTING).
 
 ### Arch Linux
